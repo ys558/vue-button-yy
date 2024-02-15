@@ -1,7 +1,18 @@
 {
   "name": "vue-button-comp-rollup",
-  "version": "0.0.2",
-  "type": "module",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-button-comp-rollup.umd.js",
+  "module": "./dist/vue-button-comp-rollup.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-button-comp-rollup.es.js",
+      "require": "./dist/vue-button-comp-rollup.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
