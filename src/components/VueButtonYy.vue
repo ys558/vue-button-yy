@@ -1,11 +1,11 @@
 <template>
-  <button class="lv-button">
+  <button class="vue-button-yy">
     <slot />
   </button>
 </template>
 
 <style scoped>
-  .lv-button {
+  .vue-button-yy {
     background: #43b883;
     color: white;
     outline: none;

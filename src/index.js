@@ -1,7 +1,7 @@
-import LearnVueButton from './components/LearnVueButton.vue';
+import VueButtonYy from './components/VueButtonYy.vue'
 
 export default {
-  install: (app, options) => {
-    app.component('LearnVueButton', LearnVueButton);
+  install: (app) => {
+    app.component('VueButtonYy', VueButtonYy);
   },
 };

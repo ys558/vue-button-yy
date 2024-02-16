@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.js'),
-      name: 'vue-simple-button',
-      fileName: (format) => `vue-simple-button.${format}.js`
+      name: 'VueButtonYy',
+      fileName: (format) => `vue-button-yy.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],

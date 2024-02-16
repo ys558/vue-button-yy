@@ -1,15 +1,15 @@
 {
-  "name": "vue-button-comp-rollup",
-  "version": "1.0.1",
+  "name": "vue-button-yy",
+  "version": "1.0.0",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-button-comp-rollup.umd.js",
-  "module": "./dist/vue-button-comp-rollup.es.js",
+  "main": "./dist/vue-button-yy.umd.js",
+  "module": "./dist/vue-button-yy.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-button-comp-rollup.es.js",
-      "require": "./dist/vue-button-comp-rollup.umd.js"
+      "import": "./dist/vue-button-yy.es.js",
+      "require": "./dist/vue-button-yy.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
